@@ -1,0 +1,68 @@
+.product-list {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.product-list article {
+  background: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 7px rgba(0,0,0, .2);
+}
+
+.product-list article p {
+  font-size: 16px;
+  color: #999;
+  margin-top: 10px;
+  line-height: 22px;
+}
+
+.product-list article a {
+  height: 40px;
+  border: 2px solid #DA552F;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #DA552F;
+  margin-top: 10px;
+  background: none;
+  transition: all .3s;
+}
+
+.product-list article a:hover {
+  background: #DA552F;
+  color: #FFF;
+}
+
+.product-list .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-list .actions button {
+  padding: 10px;
+  border-radius: 5px;
+  background: #DA552F;
+  border: 0;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-list .actions button:hover {
+  opacity: 0.8;
+}
+
+.product-list .actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}

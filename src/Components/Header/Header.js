@@ -1,9 +1,8 @@
 import React from 'react';
 import './header.css';
 
-//stateless component
 const Header = () => (
-    <header id="main-header">JSHunt</header>
+    <header id="main-header">GTECH - The Best Packages</header>
 );
 
 export default Header;
